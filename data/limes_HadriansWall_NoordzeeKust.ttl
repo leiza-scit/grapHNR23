@@ -1,5 +1,5 @@
-@prefix alligator: <http://rgzm.github.io/alligator/ontology#> .
-@prefix ae: <http://example.net/event#> .
+@prefix alligator: <http://archaeology.link/ontology#> .
+@prefix ae: <http://data.archaeology.link/data/ae/> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
