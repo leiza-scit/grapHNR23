@@ -1,0 +1,22 @@
+@prefix alligator: <http://rgzm.github.io/alligator/ontology#> .
+@prefix ae: <http://example.net/event#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+ae:GAkXm7 rdfs:label "AlbLimes" .
+ae:aGrEeP rdfs:label "DonauLimesPhase1" .
+ae:lKvwGk rdfs:label "DonauLimesPhase2" .
+ae:M7pzKk rdfs:label "Elisabethenstrasse" .
+ae:Ye7K01 rdfs:label "HadriansWall" .
+ae:mL1qew rdfs:label "Neckarlimes" .
+ae:zGVB42 rdfs:label "NoordzeeKust" .
+ae:Me2Pl1 rdfs:label "Wetteraulimes" .
+
+ae:Ye7K01 time:intervalFinishes ae:GAkXm7 .
+ae:Ye7K01 time:intervalAfter ae:aGrEeP .
+ae:Ye7K01 time:intervalFinishes ae:lKvwGk .
+ae:Ye7K01 time:intervalAfter ae:M7pzKk .
+ae:Ye7K01 time:intervalFinishedBy ae:mL1qew .
+ae:Ye7K01 time:intervalFinishedBy ae:zGVB42 .
+ae:Ye7K01 time:intervalEquals ae:Me2Pl1 .
