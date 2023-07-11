@@ -1,0 +1,183 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+<http://data.archaeology.link/data/ae/Interval_collection> a skos:Collection ;
+    rdfs:label "Interval Instances Collection" ;
+    rdfs:member <http://data.archaeology.link/data/ae/GAkXm7>,
+        <http://data.archaeology.link/data/ae/M7pzKk>,
+        <http://data.archaeology.link/data/ae/Me2Pl1>,
+        <http://data.archaeology.link/data/ae/Ye7K01>,
+        <http://data.archaeology.link/data/ae/aGrEeP>,
+        <http://data.archaeology.link/data/ae/lKvwGk>,
+        <http://data.archaeology.link/data/ae/mL1qew>,
+        <http://data.archaeology.link/data/ae/zGVB42> .
+
+<http://data.archaeology.link/data/ae/event_collection> a skos:Collection ;
+    rdfs:label "event Instances Collection" ;
+    rdfs:member <http://data.archaeology.link/data/ae/GAkXm7>,
+        <http://data.archaeology.link/data/ae/M7pzKk>,
+        <http://data.archaeology.link/data/ae/Me2Pl1>,
+        <http://data.archaeology.link/data/ae/Ye7K01>,
+        <http://data.archaeology.link/data/ae/aGrEeP>,
+        <http://data.archaeology.link/data/ae/lKvwGk>,
+        <http://data.archaeology.link/data/ae/mL1qew>,
+        <http://data.archaeology.link/data/ae/zGVB42> .
+
+<http://data.archaeology.link/data/ae/GAkXm7> a ns1:event,
+        time:Interval ;
+    rdfs:label "AlbLimes" ;
+    ns1:cax "-0.226" ;
+    ns1:cay "0.109" ;
+    ns1:caz "-0.514" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "260.0" ;
+    ns1:estimatedstart "97.0" ;
+    ns1:startfixed "true" ;
+    dc:identifier "GAkXm7" ;
+    time:intervalAfter <http://data.archaeology.link/data/ae/aGrEeP> ;
+    time:intervalFinishedBy <http://data.archaeology.link/data/ae/Me2Pl1>,
+        <http://data.archaeology.link/data/ae/Ye7K01>,
+        <http://data.archaeology.link/data/ae/mL1qew>,
+        <http://data.archaeology.link/data/ae/zGVB42> ;
+    time:intervalFinishes <http://data.archaeology.link/data/ae/lKvwGk> ;
+    time:intervalOverlappedBy <http://data.archaeology.link/data/ae/M7pzKk> .
+
+<http://data.archaeology.link/data/ae/M7pzKk> a ns1:event,
+        time:Interval ;
+    rdfs:label "Elisabethenstrasse" ;
+    ns1:cax "0.029" ;
+    ns1:cay "0.397" ;
+    ns1:caz "-0.085" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "104.0" ;
+    ns1:estimatedstart "74.0" ;
+    ns1:startfixed "true" ;
+    dc:identifier "M7pzKk" ;
+    time:intervalAfter <http://data.archaeology.link/data/ae/aGrEeP> ;
+    time:intervalBefore <http://data.archaeology.link/data/ae/Me2Pl1>,
+        <http://data.archaeology.link/data/ae/Ye7K01>,
+        <http://data.archaeology.link/data/ae/mL1qew>,
+        <http://data.archaeology.link/data/ae/zGVB42> ;
+    time:intervalDuring <http://data.archaeology.link/data/ae/lKvwGk> ;
+    time:intervalOverlaps <http://data.archaeology.link/data/ae/GAkXm7> .
+
+<http://data.archaeology.link/data/ae/Me2Pl1> a ns1:event,
+        time:Interval ;
+    rdfs:label "Wetteraulimes" ;
+    ns1:cax "0.649" ;
+    ns1:cay "-0.289" ;
+    ns1:caz "0.038" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "260.0" ;
+    ns1:estimatedstart "110.0" ;
+    ns1:startfixed "true" ;
+    dc:identifier "Me2Pl1" ;
+    time:intervalAfter <http://data.archaeology.link/data/ae/M7pzKk>,
+        <http://data.archaeology.link/data/ae/aGrEeP> ;
+    time:intervalEquals <http://data.archaeology.link/data/ae/Ye7K01> ;
+    time:intervalFinishedBy <http://data.archaeology.link/data/ae/mL1qew>,
+        <http://data.archaeology.link/data/ae/zGVB42> ;
+    time:intervalFinishes <http://data.archaeology.link/data/ae/GAkXm7>,
+        <http://data.archaeology.link/data/ae/lKvwGk> .
+
+<http://data.archaeology.link/data/ae/Ye7K01> a ns1:event,
+        time:Interval ;
+    rdfs:label "HadriansWall" ;
+    ns1:cax "0.786" ;
+    ns1:cay "-0.558" ;
+    ns1:caz "-0.915" ;
+    ns1:endfixed "false" ;
+    ns1:estimatedend "260.0" ;
+    ns1:estimatedstart "110.0" ;
+    ns1:nfen "Wetteraulimes" ;
+    ns1:nfsn "Wetteraulimes" ;
+    ns1:startfixed "false" ;
+    dc:identifier "Ye7K01" ;
+    time:intervalAfter <http://data.archaeology.link/data/ae/M7pzKk>,
+        <http://data.archaeology.link/data/ae/aGrEeP> ;
+    time:intervalEquals <http://data.archaeology.link/data/ae/Me2Pl1> ;
+    time:intervalFinishedBy <http://data.archaeology.link/data/ae/mL1qew>,
+        <http://data.archaeology.link/data/ae/zGVB42> ;
+    time:intervalFinishes <http://data.archaeology.link/data/ae/GAkXm7>,
+        <http://data.archaeology.link/data/ae/lKvwGk> .
+
+<http://data.archaeology.link/data/ae/aGrEeP> a ns1:event,
+        time:Interval ;
+    rdfs:label "DonauLimesPhase1" ;
+    ns1:cax "-0.884" ;
+    ns1:cay "-0.224" ;
+    ns1:caz "0.256" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "70.0" ;
+    ns1:estimatedstart "30.0" ;
+    ns1:startfixed "true" ;
+    dc:identifier "aGrEeP" ;
+    time:intervalBefore <http://data.archaeology.link/data/ae/GAkXm7>,
+        <http://data.archaeology.link/data/ae/M7pzKk>,
+        <http://data.archaeology.link/data/ae/Me2Pl1>,
+        <http://data.archaeology.link/data/ae/Ye7K01>,
+        <http://data.archaeology.link/data/ae/mL1qew>,
+        <http://data.archaeology.link/data/ae/zGVB42> ;
+    time:intervalMeets <http://data.archaeology.link/data/ae/lKvwGk> .
+
+<http://data.archaeology.link/data/ae/lKvwGk> a ns1:event,
+        time:Interval ;
+    rdfs:label "DonauLimesPhase2" ;
+    ns1:cax "-0.216" ;
+    ns1:cay "-0.188" ;
+    ns1:caz "-0.139" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "260.0" ;
+    ns1:estimatedstart "70.0" ;
+    ns1:startfixed "true" ;
+    dc:identifier "lKvwGk" ;
+    time:intervalContains <http://data.archaeology.link/data/ae/M7pzKk> ;
+    time:intervalFinishedBy <http://data.archaeology.link/data/ae/GAkXm7>,
+        <http://data.archaeology.link/data/ae/Me2Pl1>,
+        <http://data.archaeology.link/data/ae/Ye7K01>,
+        <http://data.archaeology.link/data/ae/mL1qew>,
+        <http://data.archaeology.link/data/ae/zGVB42> ;
+    time:intervalMetBy <http://data.archaeology.link/data/ae/aGrEeP> .
+
+<http://data.archaeology.link/data/ae/mL1qew> a ns1:event,
+        time:Interval ;
+    rdfs:label "Neckarlimes" ;
+    ns1:cax "0.08" ;
+    ns1:cay "-0.725" ;
+    ns1:caz "0.389" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "260.0" ;
+    ns1:estimatedstart "117.0" ;
+    ns1:startfixed "true" ;
+    dc:identifier "mL1qew" ;
+    time:intervalAfter <http://data.archaeology.link/data/ae/M7pzKk>,
+        <http://data.archaeology.link/data/ae/aGrEeP> ;
+    time:intervalFinishedBy <http://data.archaeology.link/data/ae/zGVB42> ;
+    time:intervalFinishes <http://data.archaeology.link/data/ae/GAkXm7>,
+        <http://data.archaeology.link/data/ae/Me2Pl1>,
+        <http://data.archaeology.link/data/ae/Ye7K01>,
+        <http://data.archaeology.link/data/ae/lKvwGk> .
+
+<http://data.archaeology.link/data/ae/zGVB42> a ns1:event,
+        time:Interval ;
+    rdfs:label "NoordzeeKust" ;
+    ns1:cax "0.625" ;
+    ns1:cay "0.561" ;
+    ns1:caz "1.304" ;
+    ns1:endfixed "false" ;
+    ns1:estimatedend "260.0" ;
+    ns1:estimatedstart "120.0" ;
+    ns1:nfen "Wetteraulimes" ;
+    ns1:startfixed "true" ;
+    dc:identifier "zGVB42" ;
+    time:intervalAfter <http://data.archaeology.link/data/ae/M7pzKk>,
+        <http://data.archaeology.link/data/ae/aGrEeP> ;
+    time:intervalFinishes <http://data.archaeology.link/data/ae/GAkXm7>,
+        <http://data.archaeology.link/data/ae/Me2Pl1>,
+        <http://data.archaeology.link/data/ae/Ye7K01>,
+        <http://data.archaeology.link/data/ae/lKvwGk>,
+        <http://data.archaeology.link/data/ae/mL1qew> .
+

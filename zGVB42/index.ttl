@@ -1,0 +1,25 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+<http://data.archaeology.link/data/ae/zGVB42> a ns1:event,
+        time:Interval ;
+    rdfs:label "NoordzeeKust" ;
+    ns1:cax "0.625" ;
+    ns1:cay "0.561" ;
+    ns1:caz "1.304" ;
+    ns1:endfixed "false" ;
+    ns1:estimatedend "260.0" ;
+    ns1:estimatedstart "120.0" ;
+    ns1:nfen "Wetteraulimes" ;
+    ns1:startfixed "true" ;
+    dc:identifier "zGVB42" ;
+    time:intervalAfter <http://data.archaeology.link/data/ae/M7pzKk>,
+        <http://data.archaeology.link/data/ae/aGrEeP> ;
+    time:intervalFinishes <http://data.archaeology.link/data/ae/GAkXm7>,
+        <http://data.archaeology.link/data/ae/Me2Pl1>,
+        <http://data.archaeology.link/data/ae/Ye7K01>,
+        <http://data.archaeology.link/data/ae/lKvwGk>,
+        <http://data.archaeology.link/data/ae/mL1qew> .
+

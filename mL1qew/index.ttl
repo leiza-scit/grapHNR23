@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+<http://data.archaeology.link/data/ae/mL1qew> a ns1:event,
+        time:Interval ;
+    rdfs:label "Neckarlimes" ;
+    ns1:cax "0.08" ;
+    ns1:cay "-0.725" ;
+    ns1:caz "0.389" ;
+    ns1:endfixed "true" ;
+    ns1:estimatedend "260.0" ;
+    ns1:estimatedstart "117.0" ;
+    ns1:startfixed "true" ;
+    dc:identifier "mL1qew" ;
+    time:intervalAfter <http://data.archaeology.link/data/ae/M7pzKk>,
+        <http://data.archaeology.link/data/ae/aGrEeP> ;
+    time:intervalFinishedBy <http://data.archaeology.link/data/ae/zGVB42> ;
+    time:intervalFinishes <http://data.archaeology.link/data/ae/GAkXm7>,
+        <http://data.archaeology.link/data/ae/Me2Pl1>,
+        <http://data.archaeology.link/data/ae/Ye7K01>,
+        <http://data.archaeology.link/data/ae/lKvwGk> .
+
