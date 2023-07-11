@@ -2,7 +2,7 @@
 @prefix ae: <http://data.archaeology.link/data/ae/> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> . 
 
 ae:GAkXm7 a alligator:event .
 ae:GAkXm7 a time:Interval .
