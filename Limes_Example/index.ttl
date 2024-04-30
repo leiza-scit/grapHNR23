@@ -1,0 +1,135 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://ldf.fi/void-ext#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ae/Limes_Example> a void:Dataset,
+        <http://www.w3.org/ns/adms#Asset>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Limes_Example"@en ;
+    ns1:averageLiteralLength 6 ;
+    ns1:averageObjectIRILength 42 ;
+    ns1:averagePropertyIRILength 41 ;
+    ns1:averageSubjectIRILength 45 ;
+    ns1:datatypes 0 ;
+    ns1:distinctBlankNodes 0 ;
+    ns1:distinctIRIReferences 94 ;
+    ns1:distinctLiterals 53 ;
+    ns1:distinctRDFNodes 147 ;
+    ns1:languages 1 ;
+    ns1:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-04-30T11:17:44"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "Limes_Example"@en ;
+    vann:preferredNamespacePrefix "ae"^^xsd:string ;
+    vann:preferredNamespaceUri "http://data.archaeology.link/data/ae/"^^xsd:anyURI ;
+    void:classPartition <http://data.archaeology.link/data/ae/Limes_Example_Collection>,
+        <http://data.archaeology.link/data/ae/Limes_Example_Interval>,
+        <http://data.archaeology.link/data/ae/Limes_Example_event> ;
+    void:classes 3 ;
+    void:dataDump <https://leiza-scit.github.io/grapHNR23//index.ttl> ;
+    void:distinctObjects 61 ;
+    void:distinctSubjects 10 ;
+    void:entities 11 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 23 ;
+    void:propertyPartition <http://data.archaeology.link/data/ae/Limes_Example_cax>,
+        <http://data.archaeology.link/data/ae/Limes_Example_cay>,
+        <http://data.archaeology.link/data/ae/Limes_Example_caz>,
+        <http://data.archaeology.link/data/ae/Limes_Example_endfixed>,
+        <http://data.archaeology.link/data/ae/Limes_Example_estimatedend>,
+        <http://data.archaeology.link/data/ae/Limes_Example_estimatedstart>,
+        <http://data.archaeology.link/data/ae/Limes_Example_identifier>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalAfter>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalBefore>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalContains>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalDuring>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalEquals>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalFinishedBy>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalFinishes>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalMeets>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalMetBy>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalOverlappedBy>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalOverlaps>,
+        <http://data.archaeology.link/data/ae/Limes_Example_label>,
+        <http://data.archaeology.link/data/ae/Limes_Example_nfen>,
+        <http://data.archaeology.link/data/ae/Limes_Example_nfsn>,
+        <http://data.archaeology.link/data/ae/Limes_Example_startfixed>,
+        <http://data.archaeology.link/data/ae/Limes_Example_type> ;
+    void:triples 177 ;
+    void:uriSpace "http://data.archaeology.link/data/ae/"^^xsd:string ;
+    void:vocabulary ns1:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        <http://purl.org/vocommons/voaf#>,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        <http://www.w3.org/ns/adms#>,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://data.archaeology.link/data/ae/Limes_Example_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://leiza-scit.github.io/grapHNR23/> ;
+    foaf:homepage <https://leiza-scit.github.io/grapHNR23/> ;
+    foaf:page <https://leiza-scit.github.io/grapHNR23//index.html> .
+

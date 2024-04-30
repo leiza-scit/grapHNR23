@@ -2,9 +2,12 @@
 @prefix ns1: <http://archaeology.link/ontology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://data.archaeology.link/data/ae/zGVB42> a ns1:event,
-        time:Interval ;
+        time:Interval,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "NoordzeeKust" ;
     ns1:cax "0.625" ;
     ns1:cay "0.561" ;
@@ -15,6 +18,7 @@
     ns1:nfen "Wetteraulimes" ;
     ns1:startfixed "true" ;
     dc:identifier "zGVB42" ;
+    void:inDataset <http://data.archaeology.link/data/ae/Limes_Example> ;
     time:intervalAfter <http://data.archaeology.link/data/ae/M7pzKk>,
         <http://data.archaeology.link/data/ae/aGrEeP> ;
     time:intervalFinishes <http://data.archaeology.link/data/ae/GAkXm7>,

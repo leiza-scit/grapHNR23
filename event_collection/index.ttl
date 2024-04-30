@@ -1,8 +1,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
-<http://data.archaeology.link/data/ae/event_collection> a skos:Collection ;
-    rdfs:label "event Instances Collection" ;
+<http://data.archaeology.link/data/ae/event_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "event Instances Collection"@en ;
+    void:inDataset <http://data.archaeology.link/data/ae/Limes_Example> ;
     rdfs:member <http://data.archaeology.link/data/ae/GAkXm7>,
         <http://data.archaeology.link/data/ae/M7pzKk>,
         <http://data.archaeology.link/data/ae/Me2Pl1>,

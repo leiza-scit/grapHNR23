@@ -1,0 +1,628 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vext: <http://ldf.fi/void-ext#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/ae/Limes_Example_archaeology.link_ontology_> a void:Linkset ;
+    rdfs:label "Linkset: Limes_Example - alligator:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://archaeology.link/ontology#> ;
+    void:subjectsTarget <http://data.archaeology.link/data/ae/Limes_Example> ;
+    void:triples 8 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_www.w3.org_2004_02_skos_core_> a void:Linkset ;
+    rdfs:label "Linkset: Limes_Example - skos:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget skos: ;
+    void:subjectsTarget <http://data.archaeology.link/data/ae/Limes_Example> ;
+    void:triples 2 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_www.w3.org_2006_time_> a void:Linkset ;
+    rdfs:label "Linkset: Limes_Example - time:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget time: ;
+    void:subjectsTarget <http://data.archaeology.link/data/ae/Limes_Example> ;
+    void:triples 8 .
+
+<http://data.archaeology.link/data/ae/adms_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/adms# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/brick_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://brickschema.org/schema/Brick# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/csvw_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/csvw# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/dc_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/elements/1.1/ in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/dcam_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcam/ in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/dcat_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dcat# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/dcmitype_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcmitype/ in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/dcterms_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/terms/ in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/doap_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://usefulinc.com/ns/doap# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/foaf_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/geo_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/odrl_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/org_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/org# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/owl_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2002/07/owl# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/prof_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dx/prof/ in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/prov_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/qb_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/linked-data/cube# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/rdf_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/1999/02/22-rdf-syntax-ns# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/rdfs_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2000/01/rdf-schema# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/schema_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://schema.org/ in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/sh_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/shacl# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/skos_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> ;
+    voaf:occurrences 4 .
+
+<http://data.archaeology.link/data/ae/sosa_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/sosa/ in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/ssn_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/ssn/ in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/time_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2006/time# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> ;
+    voaf:occurrences 16 .
+
+<http://data.archaeology.link/data/ae/vann_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocab/vann/ in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/vext_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://ldf.fi/void-ext# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/voaf_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocommons/voaf# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/void_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://rdfs.org/ns/void# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/wgs_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://www.w3.org/2003/01/geo/wgs84_pos# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/xml_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/XML/1998/namespace in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/xsd_Limes_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2001/XMLSchema# in Limes_Example" ;
+    voaf:inDataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<https://github.com/leiza-scit/grapHNR23> a adms:AssetRepository ;
+    rdfs:label "Repository for Limes_Example"@en ;
+    dcat:accessURL "https://github.com/leiza-scit/grapHNR23"^^xsd:anyURI ;
+    dcat:dataset <http://data.archaeology.link/data/ae/Limes_Example> .
+
+<http://data.archaeology.link/data/ae/Limes_Example_Collection> a void:Dataset ;
+    rdfs:label "Class Partition: Collection"@en ;
+    void:class skos:Collection ;
+    void:entities 2 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_Interval> a void:Dataset ;
+    rdfs:label "Class Partition: Interval"@en ;
+    void:class time:Interval ;
+    void:entities 8 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_cax> a void:Dataset ;
+    rdfs:label "Property Partition: cax"@en ;
+    void:property <http://archaeology.link/ontology#cax> ;
+    void:triples 8 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_cay> a void:Dataset ;
+    rdfs:label "Property Partition: cay"@en ;
+    void:property <http://archaeology.link/ontology#cay> ;
+    void:triples 8 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_caz> a void:Dataset ;
+    rdfs:label "Property Partition: caz"@en ;
+    void:property <http://archaeology.link/ontology#caz> ;
+    void:triples 8 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_dist_ttl> a adms:AssetDistribution ;
+    rdfs:label "Limes_Example TTL Distribution"@en ;
+    dcat:downloadURL "https://leiza-scit.github.io/grapHNR23//index.ttl"^^xsd:anyURI ;
+    dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
+
+<http://data.archaeology.link/data/ae/Limes_Example_endfixed> a void:Dataset ;
+    rdfs:label "Property Partition: endfixed"@en ;
+    void:property <http://archaeology.link/ontology#endfixed> ;
+    void:triples 8 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_estimatedend> a void:Dataset ;
+    rdfs:label "Property Partition: estimatedend"@en ;
+    void:property <http://archaeology.link/ontology#estimatedend> ;
+    void:triples 8 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_estimatedstart> a void:Dataset ;
+    rdfs:label "Property Partition: estimatedstart"@en ;
+    void:property <http://archaeology.link/ontology#estimatedstart> ;
+    void:triples 8 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_event> a void:Dataset ;
+    rdfs:label "Class Partition: event"@en ;
+    void:class <http://archaeology.link/ontology#event> ;
+    void:entities 8 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_identifier> a void:Dataset ;
+    rdfs:label "Property Partition: identifier"@en ;
+    void:property dc:identifier ;
+    void:triples 8 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_intervalAfter> a void:Dataset ;
+    rdfs:label "Property Partition: intervalAfter"@en ;
+    void:property time:intervalAfter ;
+    void:triples 10 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_intervalBefore> a void:Dataset ;
+    rdfs:label "Property Partition: intervalBefore"@en ;
+    void:property time:intervalBefore ;
+    void:triples 10 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_intervalContains> a void:Dataset ;
+    rdfs:label "Property Partition: intervalContains"@en ;
+    void:property time:intervalContains ;
+    void:triples 1 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_intervalDuring> a void:Dataset ;
+    rdfs:label "Property Partition: intervalDuring"@en ;
+    void:property time:intervalDuring ;
+    void:triples 1 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_intervalEquals> a void:Dataset ;
+    rdfs:label "Property Partition: intervalEquals"@en ;
+    void:property time:intervalEquals ;
+    void:triples 2 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_intervalFinishedBy> a void:Dataset ;
+    rdfs:label "Property Partition: intervalFinishedBy"@en ;
+    void:property time:intervalFinishedBy ;
+    void:triples 14 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_intervalFinishes> a void:Dataset ;
+    rdfs:label "Property Partition: intervalFinishes"@en ;
+    void:property time:intervalFinishes ;
+    void:triples 14 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_intervalMeets> a void:Dataset ;
+    rdfs:label "Property Partition: intervalMeets"@en ;
+    void:property time:intervalMeets ;
+    void:triples 1 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_intervalMetBy> a void:Dataset ;
+    rdfs:label "Property Partition: intervalMetBy"@en ;
+    void:property time:intervalMetBy ;
+    void:triples 1 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_intervalOverlappedBy> a void:Dataset ;
+    rdfs:label "Property Partition: intervalOverlappedBy"@en ;
+    void:property time:intervalOverlappedBy ;
+    void:triples 1 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_intervalOverlaps> a void:Dataset ;
+    rdfs:label "Property Partition: intervalOverlaps"@en ;
+    void:property time:intervalOverlaps ;
+    void:triples 1 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_label> a void:Dataset ;
+    rdfs:label "Property Partition: label"@en ;
+    void:property rdfs:label ;
+    void:triples 8 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_nfen> a void:Dataset ;
+    rdfs:label "Property Partition: nfen"@en ;
+    void:property <http://archaeology.link/ontology#nfen> ;
+    void:triples 2 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_nfsn> a void:Dataset ;
+    rdfs:label "Property Partition: nfsn"@en ;
+    void:property <http://archaeology.link/ontology#nfsn> ;
+    void:triples 1 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_startfixed> a void:Dataset ;
+    rdfs:label "Property Partition: startfixed"@en ;
+    void:property <http://archaeology.link/ontology#startfixed> ;
+    void:triples 8 .
+
+<http://data.archaeology.link/data/ae/Limes_Example_type> a void:Dataset ;
+    rdfs:label "Property Partition: type"@en ;
+    void:property rdf:type ;
+    void:triples 16 .
+
+<http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
+
+<http://dbpedia.org/resource/OGC_GeoSPARQL> rdfs:label "OGC GeoSPARQL"@en .
+
+<http://dbpedia.org/resource/Time> rdfs:label "Time Data"@en .
+
+vext: a voaf:Vocabulary ;
+    rdfs:label "vext Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vext"^^xsd:string ;
+    vann:preferredNamespaceUri "http://ldf.fi/void-ext#"^^xsd:anyURI ;
+    voaf:usageInDataset vext:_Limes_Example_occ .
+
+dcam: a voaf:Vocabulary ;
+    rdfs:label "dcam Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcam"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcam/"^^xsd:anyURI ;
+    voaf:usageInDataset dcam:_Limes_Example_occ .
+
+dcmitype: a voaf:Vocabulary ;
+    rdfs:label "dcmitype Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcmitype"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcmitype/"^^xsd:anyURI ;
+    voaf:usageInDataset dcmitype:_Limes_Example_occ .
+
+dc: a voaf:Vocabulary ;
+    rdfs:label "dc Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dc"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/elements/1.1/"^^xsd:anyURI ;
+    voaf:usageInDataset dc:_Limes_Example_occ .
+
+dcterms: a voaf:Vocabulary ;
+    rdfs:label "dcterms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcterms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/terms/"^^xsd:anyURI ;
+    voaf:usageInDataset dcterms:_Limes_Example_occ .
+
+qb: a voaf:Vocabulary ;
+    rdfs:label "qb Vocabulary"@en ;
+    vann:preferredNamespacePrefix "qb"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/linked-data/cube#"^^xsd:anyURI ;
+    voaf:usageInDataset qb:_Limes_Example_occ .
+
+vann: a voaf:Vocabulary ;
+    rdfs:label "vann Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vann"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocab/vann/"^^xsd:anyURI ;
+    voaf:usageInDataset vann:_Limes_Example_occ .
+
+voaf: a voaf:Vocabulary ;
+    rdfs:label "voaf Vocabulary"@en ;
+    vann:preferredNamespacePrefix "voaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocommons/voaf#"^^xsd:anyURI ;
+    voaf:usageInDataset voaf:_Limes_Example_occ .
+
+void: a voaf:Vocabulary ;
+    rdfs:label "Vocabulary of Interlinked Datasets (VoID)"@en ;
+    vann:preferredNamespacePrefix "void"^^xsd:string ;
+    vann:preferredNamespaceUri "http://rdfs.org/ns/void#"^^xsd:anyURI ;
+    voaf:usageInDataset void:_Limes_Example_occ .
+
+doap: a voaf:Vocabulary ;
+    rdfs:label "doap Vocabulary"@en ;
+    vann:preferredNamespacePrefix "doap"^^xsd:string ;
+    vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#"^^xsd:anyURI ;
+    voaf:usageInDataset doap:_Limes_Example_occ .
+
+geo: a voaf:Vocabulary ;
+    rdfs:label "The GeoSPARQL Ontology"@en ;
+    vann:preferredNamespacePrefix "geo"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
+    voaf:usageInDataset geo:_Limes_Example_occ .
+
+rdf: a voaf:Vocabulary ;
+    rdfs:label "The RDF Concepts Vocabulary (RDF)"@en ;
+    vann:preferredNamespacePrefix "rdf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#"^^xsd:anyURI ;
+    voaf:usageInDataset rdf:_Limes_Example_occ .
+
+rdfs: a voaf:Vocabulary ;
+    rdfs:label "The RDF Schema vocabulary (RDFS)"@en ;
+    vann:preferredNamespacePrefix "rdfs"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+    voaf:usageInDataset rdfs:_Limes_Example_occ .
+
+xsd: a voaf:Vocabulary ;
+    rdfs:label "XML Schema"@en ;
+    vann:preferredNamespacePrefix "xsd"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#"^^xsd:anyURI ;
+    voaf:usageInDataset xsd:_Limes_Example_occ .
+
+owl: a voaf:Vocabulary ;
+    rdfs:label "Web Ontology Language 2 Vocabulary"@en ;
+    vann:preferredNamespacePrefix "owl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
+    voaf:usageInDataset owl:_Limes_Example_occ .
+
+xml: a voaf:Vocabulary ;
+    rdfs:label "xml Vocabulary"@en ;
+    vann:preferredNamespacePrefix "xml"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/XML/1998/namespace"^^xsd:anyURI ;
+    voaf:usageInDataset xml:_Limes_Example_occ .
+
+adms: a voaf:Vocabulary ;
+    rdfs:label "adms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "adms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/adms#"^^xsd:anyURI ;
+    voaf:usageInDataset adms:_Limes_Example_occ .
+
+csvw: a voaf:Vocabulary ;
+    rdfs:label "csvw Vocabulary"@en ;
+    vann:preferredNamespacePrefix "csvw"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/csvw#"^^xsd:anyURI ;
+    voaf:usageInDataset csvw:_Limes_Example_occ .
+
+dcat: a voaf:Vocabulary ;
+    rdfs:label "DCAT Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcat"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dcat#"^^xsd:anyURI ;
+    voaf:usageInDataset dcat:_Limes_Example_occ .
+
+prof: a voaf:Vocabulary ;
+    rdfs:label "prof Vocabulary"@en ;
+    vann:preferredNamespacePrefix "prof"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dx/prof/"^^xsd:anyURI ;
+    voaf:usageInDataset prof:_Limes_Example_occ .
+
+odrl: a voaf:Vocabulary ;
+    rdfs:label "odrl Vocabulary"@en ;
+    vann:preferredNamespacePrefix "odrl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/odrl/2/"^^xsd:anyURI ;
+    voaf:usageInDataset odrl:_Limes_Example_occ .
+
+org: a voaf:Vocabulary ;
+    rdfs:label "org Vocabulary"@en ;
+    vann:preferredNamespacePrefix "org"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/org#"^^xsd:anyURI ;
+    voaf:usageInDataset org:_Limes_Example_occ .
+
+prov: a voaf:Vocabulary ;
+    rdfs:label "W3C Provenance Ontology"@en ;
+    vann:preferredNamespacePrefix "prov"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/prov#"^^xsd:anyURI ;
+    voaf:usageInDataset prov:_Limes_Example_occ .
+
+sh: a voaf:Vocabulary ;
+    rdfs:label "Shapes Constraint Language (SHACL)"@en ;
+    vann:preferredNamespacePrefix "sh"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/shacl#"^^xsd:anyURI ;
+    voaf:usageInDataset sh:_Limes_Example_occ .
+
+sosa: a voaf:Vocabulary ;
+    rdfs:label "Sensor, Observation, Sample, and Actuator (SOSA) Ontology"@en ;
+    vann:preferredNamespacePrefix "sosa"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/sosa/"^^xsd:anyURI ;
+    voaf:usageInDataset sosa:_Limes_Example_occ .
+
+ssn: a voaf:Vocabulary ;
+    rdfs:label "ssn Vocabulary"@en ;
+    vann:preferredNamespacePrefix "ssn"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/ssn/"^^xsd:anyURI ;
+    voaf:usageInDataset ssn:_Limes_Example_occ .
+
+<http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
+
+foaf: a voaf:Vocabulary ;
+    rdfs:label "Friend Of A Friend Ontology"@en ;
+    vann:preferredNamespacePrefix "foaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/"^^xsd:anyURI ;
+    voaf:usageInDataset foaf:_Limes_Example_occ .
+
+foaf:Person rdfs:label "Person"@en .
+
+brick: a voaf:Vocabulary ;
+    rdfs:label "brick Vocabulary"@en ;
+    vann:preferredNamespacePrefix "brick"^^xsd:string ;
+    vann:preferredNamespaceUri "https://brickschema.org/schema/Brick#"^^xsd:anyURI ;
+    voaf:usageInDataset brick:_Limes_Example_occ .
+
+schema: a voaf:Vocabulary ;
+    rdfs:label "schema Vocabulary"@en ;
+    vann:preferredNamespacePrefix "schema"^^xsd:string ;
+    vann:preferredNamespaceUri "https://schema.org/"^^xsd:anyURI ;
+    voaf:usageInDataset schema:_Limes_Example_occ .
+
+wgs: a voaf:Vocabulary ;
+    rdfs:label "wgs Vocabulary"@en ;
+    vann:preferredNamespacePrefix "wgs"^^xsd:string ;
+    vann:preferredNamespaceUri "https://www.w3.org/2003/01/geo/wgs84_pos#"^^xsd:anyURI ;
+    voaf:usageInDataset wgs:_Limes_Example_occ .
+
+skos: a voaf:Vocabulary ;
+    rdfs:label "skos Vocabulary"@en ;
+    vann:preferredNamespacePrefix "skos"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
+    voaf:usageInDataset skos:_Limes_Example_occ .
+
+time: a voaf:Vocabulary ;
+    rdfs:label "time Vocabulary"@en ;
+    vann:preferredNamespacePrefix "time"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2006/time#"^^xsd:anyURI ;
+    voaf:usageInDataset time:_Limes_Example_occ .
+
+<http://data.archaeology.link/data/ae/Limes_Example> a void:Dataset,
+        adms:Asset ;
+    rdfs:label "Limes_Example"@en ;
+    vext:averageLiteralLength 6 ;
+    vext:averageObjectIRILength 42 ;
+    vext:averagePropertyIRILength 41 ;
+    vext:averageSubjectIRILength 45 ;
+    vext:datatypes 0 ;
+    vext:distinctBlankNodes 0 ;
+    vext:distinctIRIReferences 94 ;
+    vext:distinctLiterals 53 ;
+    vext:distinctRDFNodes 147 ;
+    vext:languages 1 ;
+    vext:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-04-30T11:17:44"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "Limes_Example"@en ;
+    vann:preferredNamespacePrefix "ae"^^xsd:string ;
+    vann:preferredNamespaceUri "http://data.archaeology.link/data/ae/"^^xsd:anyURI ;
+    void:classPartition <http://data.archaeology.link/data/ae/Limes_Example_Collection>,
+        <http://data.archaeology.link/data/ae/Limes_Example_Interval>,
+        <http://data.archaeology.link/data/ae/Limes_Example_event> ;
+    void:classes 3 ;
+    void:dataDump <https://leiza-scit.github.io/grapHNR23//index.ttl> ;
+    void:distinctObjects 61 ;
+    void:distinctSubjects 10 ;
+    void:entities 11 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 23 ;
+    void:propertyPartition <http://data.archaeology.link/data/ae/Limes_Example_cax>,
+        <http://data.archaeology.link/data/ae/Limes_Example_cay>,
+        <http://data.archaeology.link/data/ae/Limes_Example_caz>,
+        <http://data.archaeology.link/data/ae/Limes_Example_endfixed>,
+        <http://data.archaeology.link/data/ae/Limes_Example_estimatedend>,
+        <http://data.archaeology.link/data/ae/Limes_Example_estimatedstart>,
+        <http://data.archaeology.link/data/ae/Limes_Example_identifier>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalAfter>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalBefore>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalContains>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalDuring>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalEquals>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalFinishedBy>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalFinishes>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalMeets>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalMetBy>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalOverlappedBy>,
+        <http://data.archaeology.link/data/ae/Limes_Example_intervalOverlaps>,
+        <http://data.archaeology.link/data/ae/Limes_Example_label>,
+        <http://data.archaeology.link/data/ae/Limes_Example_nfen>,
+        <http://data.archaeology.link/data/ae/Limes_Example_nfsn>,
+        <http://data.archaeology.link/data/ae/Limes_Example_startfixed>,
+        <http://data.archaeology.link/data/ae/Limes_Example_type> ;
+    void:triples 177 ;
+    void:uriSpace "http://data.archaeology.link/data/ae/"^^xsd:string ;
+    void:vocabulary vext:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        voaf:,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        adms:,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://data.archaeology.link/data/ae/Limes_Example_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://leiza-scit.github.io/grapHNR23/> ;
+    foaf:homepage <https://leiza-scit.github.io/grapHNR23/> ;
+    foaf:page <https://leiza-scit.github.io/grapHNR23//index.html> .
+

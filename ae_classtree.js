@@ -192,6 +192,11 @@ var tree={
             "http://purl.org/dc/elements/1.1/identifier": {
               "instancecount": 1
             },
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 2
             },
@@ -203,17 +208,17 @@ var tree={
               "http://archaeology.link/ontology#event": 1,
               "http://www.w3.org/2006/time#Interval": 1
             },
-            "http://www.w3.org/2006/time#intervalFinishedBy": {
+            "http://www.w3.org/2006/time#intervalBefore": {
               "instancecount": 4,
               "http://archaeology.link/ontology#event": 4,
               "http://www.w3.org/2006/time#Interval": 4
             },
-            "http://www.w3.org/2006/time#intervalFinishes": {
+            "http://www.w3.org/2006/time#intervalDuring": {
               "instancecount": 1,
               "http://archaeology.link/ontology#event": 1,
               "http://www.w3.org/2006/time#Interval": 1
             },
-            "http://www.w3.org/2006/time#intervalOverlappedBy": {
+            "http://www.w3.org/2006/time#intervalOverlaps": {
               "instancecount": 1,
               "http://archaeology.link/ontology#event": 1,
               "http://www.w3.org/2006/time#Interval": 1
@@ -224,29 +229,29 @@ var tree={
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 2
             },
+            "http://www.w3.org/2006/time#intervalAfter": {
+              "instancecount": 0,
+              "http://archaeology.link/ontology#event": 4,
+              "http://www.w3.org/2006/time#Interval": 4
+            },
             "http://www.w3.org/2006/time#intervalBefore": {
               "instancecount": 0,
               "http://archaeology.link/ontology#event": 1,
               "http://www.w3.org/2006/time#Interval": 1
             },
-            "http://www.w3.org/2006/time#intervalFinishedBy": {
+            "http://www.w3.org/2006/time#intervalContains": {
               "instancecount": 0,
               "http://archaeology.link/ontology#event": 1,
               "http://www.w3.org/2006/time#Interval": 1
             },
-            "http://www.w3.org/2006/time#intervalFinishes": {
-              "instancecount": 0,
-              "http://archaeology.link/ontology#event": 4,
-              "http://www.w3.org/2006/time#Interval": 4
-            },
-            "http://www.w3.org/2006/time#intervalOverlaps": {
+            "http://www.w3.org/2006/time#intervalOverlappedBy": {
               "instancecount": 0,
               "http://archaeology.link/ontology#event": 1,
               "http://www.w3.org/2006/time#Interval": 1
             }
           }
         },
-        "instancecount": 18
+        "instancecount": 19
       },
       {
         "id": "http://data.archaeology.link/data/ae/event_collection",
@@ -269,6 +274,11 @@ var tree={
         "text": "Collection (skos:Collection) [2]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
             },
@@ -283,8 +293,47 @@ var tree={
           },
           "from": {}
         },
-        "instancecount": 10
+        "instancecount": 12
       }
     ]
+  },
+  "@context": {
+    "@version": 1.1,
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "ct": "http://purl.org/vocab/classtree#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "icon": "foaf:image",
+    "id": "@id",
+    "parent": "rdfs:subClassOf",
+    "halfgeoclass": "ct:HalfGeoClass",
+    "geoclass": {
+      "@type": "ct:icontype",
+      "@id": "ct:GeoClass"
+    },
+    "collectionclass": {
+      "@type": "ct:icontype",
+      "@id": "ct:CollectionClass"
+    },
+    "featurecollectionclass": {
+      "@type": "ct:icontype",
+      "@id": "ct:FeatureCollectionClass"
+    },
+    "class": "owl:Class",
+    "instance": "owl:NamedIndividual",
+    "geoinstance": {
+      "@type": "ct:Icontype",
+      "@id": "ct:GeoNamedIndividual"
+    },
+    "text": "rdfs:label",
+    "type": "ct:icontype",
+    "types": "ct:icontypes",
+    "core": {
+      "@type": "ct:TreeConfig",
+      "@id": "@nest"
+    },
+    "data": {
+      "@id": "ct:treeitem",
+      "@type": "ct:TreeItem"
+    }
   }
 }

@@ -2,9 +2,12 @@
 @prefix ns1: <http://archaeology.link/ontology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://data.archaeology.link/data/ae/GAkXm7> a ns1:event,
-        time:Interval ;
+        time:Interval,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "AlbLimes" ;
     ns1:cax "-0.226" ;
     ns1:cay "0.109" ;
@@ -14,6 +17,7 @@
     ns1:estimatedstart "97.0" ;
     ns1:startfixed "true" ;
     dc:identifier "GAkXm7" ;
+    void:inDataset <http://data.archaeology.link/data/ae/Limes_Example> ;
     time:intervalAfter <http://data.archaeology.link/data/ae/aGrEeP> ;
     time:intervalFinishedBy <http://data.archaeology.link/data/ae/Me2Pl1>,
         <http://data.archaeology.link/data/ae/Ye7K01>,
