@@ -18,175 +18,14 @@ var minivowlresult={
  ],
  "links": [
   {
-   "source": 0,
-   "target": 0,
-   "valueTo": "intervalFinishes",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalFinishes"
-  },
-  {
-   "source": 0,
+   "source": 1,
    "target": 1,
-   "valueTo": "intervalFinishes",
+   "valueTo": "intervalAfter",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalFinishes"
+   "uriTo": "http://www.w3.org/2006/time#intervalAfter"
   },
   {
    "source": 1,
-   "target": 0,
-   "valueTo": "intervalFinishes",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalFinishes"
-  },
-  {
-   "source": 1,
-   "target": 1,
-   "valueTo": "intervalFinishes",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalFinishes"
-  },
-  {
-   "source": 0,
-   "target": 0,
-   "valueTo": "intervalDuring",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalDuring"
-  },
-  {
-   "source": 0,
-   "target": 1,
-   "valueTo": "intervalDuring",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalDuring"
-  },
-  {
-   "source": 1,
-   "target": 0,
-   "valueTo": "intervalDuring",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalDuring"
-  },
-  {
-   "source": 1,
-   "target": 1,
-   "valueTo": "intervalDuring",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalDuring"
-  },
-  {
-   "source": 0,
-   "target": 0,
-   "valueTo": "intervalBefore",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalBefore"
-  },
-  {
-   "source": 0,
-   "target": 1,
-   "valueTo": "intervalBefore",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalBefore"
-  },
-  {
-   "source": 1,
-   "target": 0,
-   "valueTo": "intervalBefore",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalBefore"
-  },
-  {
-   "source": 1,
-   "target": 1,
-   "valueTo": "intervalBefore",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalBefore"
-  },
-  {
-   "source": 0,
-   "target": 0,
-   "valueTo": "intervalFinishedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalFinishedBy"
-  },
-  {
-   "source": 0,
-   "target": 1,
-   "valueTo": "intervalFinishedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalFinishedBy"
-  },
-  {
-   "source": 1,
-   "target": 0,
-   "valueTo": "intervalFinishedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalFinishedBy"
-  },
-  {
-   "source": 1,
-   "target": 1,
-   "valueTo": "intervalFinishedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalFinishedBy"
-  },
-  {
-   "source": 0,
-   "target": 0,
-   "valueTo": "intervalContains",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalContains"
-  },
-  {
-   "source": 0,
-   "target": 1,
-   "valueTo": "intervalContains",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalContains"
-  },
-  {
-   "source": 1,
-   "target": 0,
-   "valueTo": "intervalContains",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalContains"
-  },
-  {
-   "source": 1,
-   "target": 1,
-   "valueTo": "intervalContains",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalContains"
-  },
-  {
-   "source": 0,
-   "target": 0,
-   "valueTo": "intervalMetBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalMetBy"
-  },
-  {
-   "source": 0,
-   "target": 1,
-   "valueTo": "intervalMetBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalMetBy"
-  },
-  {
-   "source": 1,
-   "target": 0,
-   "valueTo": "intervalMetBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalMetBy"
-  },
-  {
-   "source": 1,
-   "target": 1,
-   "valueTo": "intervalMetBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalMetBy"
-  },
-  {
-   "source": 0,
    "target": 0,
    "valueTo": "intervalAfter",
    "propertyTo": "class",
@@ -200,7 +39,7 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/2006/time#intervalAfter"
   },
   {
-   "source": 1,
+   "source": 0,
    "target": 0,
    "valueTo": "intervalAfter",
    "propertyTo": "class",
@@ -209,12 +48,68 @@ var minivowlresult={
   {
    "source": 1,
    "target": 1,
-   "valueTo": "intervalAfter",
+   "valueTo": "intervalBefore",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalAfter"
+   "uriTo": "http://www.w3.org/2006/time#intervalBefore"
+  },
+  {
+   "source": 1,
+   "target": 0,
+   "valueTo": "intervalBefore",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalBefore"
   },
   {
    "source": 0,
+   "target": 1,
+   "valueTo": "intervalBefore",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalBefore"
+  },
+  {
+   "source": 0,
+   "target": 0,
+   "valueTo": "intervalBefore",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalBefore"
+  },
+  {
+   "source": 1,
+   "target": 1,
+   "valueTo": "intervalFinishedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalFinishedBy"
+  },
+  {
+   "source": 1,
+   "target": 0,
+   "valueTo": "intervalFinishedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalFinishedBy"
+  },
+  {
+   "source": 0,
+   "target": 1,
+   "valueTo": "intervalFinishedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalFinishedBy"
+  },
+  {
+   "source": 0,
+   "target": 0,
+   "valueTo": "intervalFinishedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalFinishedBy"
+  },
+  {
+   "source": 1,
+   "target": 1,
+   "valueTo": "intervalEquals",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalEquals"
+  },
+  {
+   "source": 1,
    "target": 0,
    "valueTo": "intervalEquals",
    "propertyTo": "class",
@@ -228,7 +123,7 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/2006/time#intervalEquals"
   },
   {
-   "source": 1,
+   "source": 0,
    "target": 0,
    "valueTo": "intervalEquals",
    "propertyTo": "class",
@@ -237,68 +132,68 @@ var minivowlresult={
   {
    "source": 1,
    "target": 1,
-   "valueTo": "intervalEquals",
+   "valueTo": "intervalFinishes",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalEquals"
-  },
-  {
-   "source": 0,
-   "target": 0,
-   "valueTo": "intervalOverlappedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalOverlappedBy"
-  },
-  {
-   "source": 0,
-   "target": 1,
-   "valueTo": "intervalOverlappedBy",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalOverlappedBy"
+   "uriTo": "http://www.w3.org/2006/time#intervalFinishes"
   },
   {
    "source": 1,
    "target": 0,
-   "valueTo": "intervalOverlappedBy",
+   "valueTo": "intervalFinishes",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalOverlappedBy"
+   "uriTo": "http://www.w3.org/2006/time#intervalFinishes"
   },
   {
-   "source": 1,
+   "source": 0,
    "target": 1,
-   "valueTo": "intervalOverlappedBy",
+   "valueTo": "intervalFinishes",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalOverlappedBy"
+   "uriTo": "http://www.w3.org/2006/time#intervalFinishes"
   },
   {
    "source": 0,
    "target": 0,
-   "valueTo": "intervalMeets",
+   "valueTo": "intervalFinishes",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalMeets"
+   "uriTo": "http://www.w3.org/2006/time#intervalFinishes"
   },
   {
-   "source": 0,
+   "source": 1,
    "target": 1,
-   "valueTo": "intervalMeets",
+   "valueTo": "intervalMetBy",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalMeets"
+   "uriTo": "http://www.w3.org/2006/time#intervalMetBy"
   },
   {
    "source": 1,
    "target": 0,
-   "valueTo": "intervalMeets",
+   "valueTo": "intervalMetBy",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalMeets"
+   "uriTo": "http://www.w3.org/2006/time#intervalMetBy"
+  },
+  {
+   "source": 0,
+   "target": 1,
+   "valueTo": "intervalMetBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalMetBy"
+  },
+  {
+   "source": 0,
+   "target": 0,
+   "valueTo": "intervalMetBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalMetBy"
   },
   {
    "source": 1,
    "target": 1,
-   "valueTo": "intervalMeets",
+   "valueTo": "intervalOverlaps",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalMeets"
+   "uriTo": "http://www.w3.org/2006/time#intervalOverlaps"
   },
   {
-   "source": 0,
+   "source": 1,
    "target": 0,
    "valueTo": "intervalOverlaps",
    "propertyTo": "class",
@@ -312,7 +207,7 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/2006/time#intervalOverlaps"
   },
   {
-   "source": 1,
+   "source": 0,
    "target": 0,
    "valueTo": "intervalOverlaps",
    "propertyTo": "class",
@@ -321,9 +216,114 @@ var minivowlresult={
   {
    "source": 1,
    "target": 1,
-   "valueTo": "intervalOverlaps",
+   "valueTo": "intervalDuring",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#intervalOverlaps"
+   "uriTo": "http://www.w3.org/2006/time#intervalDuring"
+  },
+  {
+   "source": 1,
+   "target": 0,
+   "valueTo": "intervalDuring",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalDuring"
+  },
+  {
+   "source": 0,
+   "target": 1,
+   "valueTo": "intervalDuring",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalDuring"
+  },
+  {
+   "source": 0,
+   "target": 0,
+   "valueTo": "intervalDuring",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalDuring"
+  },
+  {
+   "source": 1,
+   "target": 1,
+   "valueTo": "intervalMeets",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalMeets"
+  },
+  {
+   "source": 1,
+   "target": 0,
+   "valueTo": "intervalMeets",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalMeets"
+  },
+  {
+   "source": 0,
+   "target": 1,
+   "valueTo": "intervalMeets",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalMeets"
+  },
+  {
+   "source": 0,
+   "target": 0,
+   "valueTo": "intervalMeets",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalMeets"
+  },
+  {
+   "source": 1,
+   "target": 1,
+   "valueTo": "intervalOverlappedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalOverlappedBy"
+  },
+  {
+   "source": 1,
+   "target": 0,
+   "valueTo": "intervalOverlappedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalOverlappedBy"
+  },
+  {
+   "source": 0,
+   "target": 1,
+   "valueTo": "intervalOverlappedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalOverlappedBy"
+  },
+  {
+   "source": 0,
+   "target": 0,
+   "valueTo": "intervalOverlappedBy",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalOverlappedBy"
+  },
+  {
+   "source": 1,
+   "target": 1,
+   "valueTo": "intervalContains",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalContains"
+  },
+  {
+   "source": 1,
+   "target": 0,
+   "valueTo": "intervalContains",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalContains"
+  },
+  {
+   "source": 0,
+   "target": 1,
+   "valueTo": "intervalContains",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalContains"
+  },
+  {
+   "source": 0,
+   "target": 0,
+   "valueTo": "intervalContains",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#intervalContains"
   }
  ]
 }
