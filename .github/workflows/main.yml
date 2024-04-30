@@ -24,7 +24,7 @@ jobs:
       prefixns: http://data.archaeology.link/data/ae/
       prefixnsshort: ae
       indexpages: true
-      metadatatable: false
+      metadatatable: true
       createcollections: true
       createVOWL: true
       preferredlang: en
